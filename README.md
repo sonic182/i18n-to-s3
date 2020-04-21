@@ -90,7 +90,7 @@ The lambda will generate a translated file for every language on your S3 bucket 
 
 ### Comments
 
-* The app will run a lambda for every file that needs to be generated; if you have es, fr, and pt, it will run 3 lambdas, 1 to generate each file; this way you will have several small, dedicated processes, rather than a big one.
+* The app will run a lambda for every file that needs to be generated; if you have es, fr, and pt, it will run 3 lambdas, one to generate each file; this way you will have several small, dedicated processes, rather than a big one.
 
 * If a translated file is already generated, it will be updated with the missing keys, as to avoid overwriting the previous ones.
 
